@@ -41,13 +41,29 @@
     font-size: 1.5rem;
   }
 
-  /*Colocar uma imagem de fundo via CSS usando background-image*/
-  #bg-space{
+  /* ========================== */
+  /* 🌌 BACKGROUND COM IMAGEM */
+  /* ========================== */
+
+  /* 
+    Colocar uma imagem de fundo usando background-image.
+    Dica:
+    - Use background-image com uma URL.
+    - Combine com background-size, position e repeat para ajustar.
+    - Pode adicionar um overlay escuro com um gradiente se quiser destacar o texto.
+
+    Exemplo:
+    background-image: url('caminho/para/imagem.jpg');
+    background-size: cover;
+    background-position: center;
+  */
+
+  #bg-space {
     color: #FAFAFA;
     height: 40vh;
     align-items: center;
   }
-  
+
   /* SECTION: SOBRE */
   section {
     padding: 60px 0;
@@ -58,28 +74,60 @@
     color: var(--primary-color);
   }
   
-  /* CARDS */
-  /*Criar uma animação diferene usando transition e hover*/
+  /* ========================== */
+  /* 🃏 CARDS */
+  /* ========================== */
+
+  /* 
+    Criar uma animação diferente para os cards:
+    - Use :hover com transform, scale, rotate ou sombra
+    - Use transition para suavizar a mudança
+    - Utilize uma cor de destaque com var(--card-hover)
+
+    Exemplo atual: leve elevação + cor de fundo diferente no hover.
+    Desafio: experimente outros efeitos como escala ou sombra neon.
+  */
   .card {
     transition: transform 0.2s ease, background-color 0.2s ease;
     border: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
   }
-  
+
   .card:hover {
     transform: translateY(-5px);
     background-color: var(--card-hover);
   }
 
+
   .card-image{
     width: 100%;
   }
 
-  /* CAROUSEL */
-  /*Limitar o tamanho da imagem baseado no tamanho dela*/
-  
-  /* FORM */
-  /*Criar uma estilização para o formulario*/
+  /* ========================== */
+  /* 🎠 CAROUSEL */
+  /* ========================== */
+
+  /* 
+    Limitar o tamanho da imagem com base no container.
+    Dica: use max-height e object-fit para manter proporção.
+    
+  */
+
+  /* ========================== */
+  /* 📝 FORM */
+  /* ========================== */
+
+  /* 
+    Criar uma estilização personalizada para o formulário:
+    - Espaçamento entre os campos
+    - Cores de fundo e texto
+    - Bordas e foco nos inputs
+    - Botão com hover e transição suave
+    - Responsividade com max-width e margin
+
+    Use variáveis com :root para criar seu tema!
+  */
+
   
   /* FOOTER */
   footer {

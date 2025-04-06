@@ -26,7 +26,14 @@
       </button>
   
       <!-- Links de navegação -->
-      <!--Adicionar opção para o carousel, Editar o estilo-->
+      <!-- 
+        🎯 Menu de navegação:
+
+        Adicione uma nova opção no menu que leve ao carrossel da página (ex: "Início" ou "Destaques").
+
+        🧠 Dica extra:
+        - Você também pode editar o estilo do menu (cores, hover, espaçamento) usando Bootstrap ou CSS puro.
+      -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
@@ -48,7 +55,14 @@
   <!-- Section: Sobre -->
   <section class="py-5 text-center" id="bg-space">
     <div class="container">
-      <!--Criar uma seção sua contando uma historia falsa sobre a empresa-->
+      <!-- 
+        🏢 Desafio criativo:
+
+        Crie uma seção contando uma história falsa sobre a origem da empresa.
+        Pode ser engraçada, curiosa ou inspiradora!
+
+        Exemplo: "Tudo começou quando três amigos cansaram de pedir pizza ruim..."
+      -->
     </div>
   </section>
 
@@ -60,21 +74,42 @@
         <div class="col-md-4">
           <div class="card h-100">
             <div class="card-body text-center">
-              <!--Adicionar imagem,titulo e texto aos cards-->
+              <!-- 
+                🧱 Personalização dos cards:
+
+                Adicione uma imagem, um título e um texto descritivo em cada card.
+                Dica: use <img>, <h5> e <p> dentro da div.card-body.
+
+                Exemplo: imagem de um produto ou serviço e uma descrição simples.
+              -->
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card h-100">
             <div class="card-body text-center">
-              <!--Adicionar imagem,titulo e texto aos cards-->
+              <!-- 
+                🧱 Personalização dos cards:
+
+                Adicione uma imagem, um título e um texto descritivo em cada card.
+                Dica: use <img>, <h5> e <p> dentro da div.card-body.
+
+                Exemplo: imagem de um produto ou serviço e uma descrição simples.
+              -->
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card h-100">
             <div class="card-body text-center">
-              <!--Adicionar imagem,titulo e texto aos cards-->
+              <!-- 
+                🧱 Personalização dos cards:
+
+                Adicione uma imagem, um título e um texto descritivo em cada card.
+                Dica: use <img>, <h5> e <p> dentro da div.card-body.
+
+                Exemplo: imagem de um produto ou serviço e uma descrição simples.
+              -->
             </div>
           </div>
         </div>
@@ -138,23 +173,60 @@
   <section class="py-5" id="contato">
     <div class="container">
       <h2 class="text-center mb-4">Entre em Contato</h2>
-      <form id="contact-form" class="mx-auto" style="max-width: 600px;">
-        <div class="mb-3">
-          <label for="name" class="form-label">Seu nome</label>
-          <input type="text" class="form-control" id="name" name="name" required>
+      <form id="contact-form">
+        <div>
+          <label for="name">Seu nome</label>
+          <input type="text" id="name" name="name" required>
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Seu e-mail</label>
-          <input type="email" class="form-control" id="email" name="email" required>
+      
+        <div>
+          <label for="email">Seu e-mail</label>
+          <input type="email" id="email" name="email" required>
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Mensagem</label>
-          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      
+        <div>
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary w-100">
-          <i class="bi bi-send-fill me-2"></i> Enviar Mensagem
+      
+        <button type="submit">
+          Enviar Mensagem
         </button>
       </form>
+      
+      <!-- 
+        🎯 Desafio de Estilização do Formulário
+
+        Agora é com você! Este formulário está sem classes visuais.
+        Seu objetivo é deixá-lo bonito, responsivo e moderno.
+
+        ✅ Opções:
+
+        1. Usar Bootstrap:
+          - Adicione classes como 'form-control', 'form-label', 'btn', etc.
+          - Use 'container', 'row', 'col' para centralizar e organizar.
+          - Exemplo: <input class="form-control">, <button class="btn btn-primary">
+
+        2. Usar CSS Puro:
+          - Crie um arquivo style.css e linke no HTML.
+          - Use variáveis CSS com :root e var().
+          - Aplique estilos para os campos, rótulos, botão e espaçamento.
+          - Exemplo: adicionar padding, bordas arredondadas, hover no botão, max-width, etc.
+
+        🧠 Dicas extras:
+          - Use 'max-width' para limitar a largura do formulário.
+          - Centralize usando margin ou Flexbox.
+          - Teste em telas pequenas para garantir responsividade.
+          - Use :hover para animar botões ou campos.
+
+        👨‍💻 Missão bônus:
+          - Crie um tema de cores usando var() no CSS.
+          - Adicione transições suaves nos botões.
+          - Faça uma versão dark mode (opcional).
+
+        Boa sorte! Capriche no estilo!
+      -->
+
       
       <!-- Script -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -165,8 +237,33 @@
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <p class="mb-0"><i class="bi bi-c-circle"></i> 2025 - Todos os direitos reservados.</p>
-    <!--Adicionar mais conteudo-->
-  </footer>
+    <!-- 
+      🧩 Expansão do Footer – Ideias e sugestões
+
+      O footer pode ir além de um simples texto. Aqui vão algumas ideias de conteúdo extra
+      que você pode adicionar:
+
+      ✅ Itens sugeridos:
+      - Links rápidos (Home, Sobre, Contato, etc.)
+      - Ícones de redes sociais (Instagram, WhatsApp, LinkedIn)
+      - Informações de contato (telefone, e-mail, localização)
+      - Créditos ou nome do criador do site
+      - Pequeno formulário de newsletter ou botão "voltar ao topo"
+
+      💡 Dicas:
+      - Use classes do Bootstrap como 'container', 'row', 'col', 'text-center', 'mb-3'
+      - Ou estilize no CSS: cor de fundo, padding, fontes, etc.
+      - Use ícones com <i class="bi bi-instagram"></i> ou similares
+      - Para links, use: <a href="#" class="text-white text-decoration-none">Link</a>
+
+      🏆 Missão bônus:
+      - Deixe o footer responsivo (ex: stack em colunas no desktop e em linha no mobile)
+      - Crie um hover diferente para os ícones ou links
+      - Adicione um botão "voltar ao topo" com JS (opcional)
+
+      Use a criatividade e personalize o rodapé do seu site!
+    -->
+</footer>
 
 </body>
 </html>
